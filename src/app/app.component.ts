@@ -6,6 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent  {
-  name = 'Angular';
-  myArray = [{value: 'aa', name: 'aaa'}, {value: 'bb', name:'bbb'}];
+ metadata = {
+   type: "Interstitial",
+   items: [
+     {
+       "type": "Header"
+     }
+   ]
+ }
 }
